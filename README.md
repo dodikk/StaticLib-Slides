@@ -5,5 +5,9 @@ As the iOS community grows, code sharing becomes more and more important thing t
 **Remarks : ** One more thing… We are going to talk a bit about mixing Objective-C and C++.
 
 
+```
+License : AFL (Academic Free License)
+```
+
 Originally composed for #iOSonRailsConf
 <http://iosonrailsconf.eu/sessions/52dafdcd5562754ba3030000>
