@@ -7,6 +7,7 @@ As the iOS community grows, code sharing becomes more and more important thing t
 
 ```
 License : AFL (Academic Free License)
+http://opensource.org/licenses/AFL-3.0
 ```
 
 Originally composed for #iOSonRailsConf
