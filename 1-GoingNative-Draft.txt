@@ -1,0 +1,10 @@
+Cocoapods : 1st commit (2011-08-12)
+
+https://github.com/CocoaPods/CocoaPods/commit/fd2bc0a7cc4c49ddc37edb2a16398f8cfb06132e#source
+
+https://twitter.com/CocoaPods/status/253096214436909056
+====================================
+
+
+
+====================================
