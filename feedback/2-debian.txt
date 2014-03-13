@@ -1,0 +1,51 @@
+[3/13/14, 11:38:24 AM] AlexDenisov: Pure C headers ho here
+ho ?
+[3/13/14, 11:39:12 AM] Oleksandr Dodatko: блекджек-то я и не приметил...
+[3/13/14, 11:39:56 AM] AlexDenisov: из слайдов мало что понял, если честно, но на то они и слайды)
+[3/13/14, 11:40:23 AM] AlexDenisov: а на счет ObC++ - я б отдельный доклад выделил
+[3/13/14, 11:46:32 AM] Oleksandr Dodatko: там - принципиально важный момент с *.pch
+[3/13/14, 11:47:15 AM] Oleksandr Dodatko: а scoped guard итп. - как готовый ответ на "нафига козе баян"
+[3/13/14, 11:47:26 AM] AlexDenisov: аа, понял
+[3/13/14, 11:48:04 AM] AlexDenisov: кстати, pch еще нужен чтобы ускорить парсинг
+[3/13/14, 11:48:43 AM] Oleksandr Dodatko: Я знаю. И да, твои benchmarks по времени компиляции тоже остались за бортом
+[3/13/14, 11:49:19 AM] AlexDenisov: foo.h
+#import <Foundation/Foundation.h>
+foo.m
+#import <Foundation/Foundation.h>
+
+будет парситься два раза (от имплементации зависит, конечно, но дубовый libclang именно так и сделал)
+
+foo.pch
+#import <Foundation/Foundation.h>
+foo.h
+#import <Foundation/Foundation.h>
+foo.m
+#import <Foundation/Foundation.h>
+
+один проход по Foudnation
+[3/13/14, 11:49:27 AM] AlexDenisov: On 3/13/14, at 11:48, Oleksandr Dodatko wrote:
+> Я знаю. И да, твои benchmarks по времени компиляции тоже остались за бортом
+
+ну я так, к слову
+[3/13/14, 11:55:39 AM] Oleksandr Dodatko: В общем, не о том я тут рассказываю.
+На словах - да, скажу, может быть.
+[3/13/14, 11:56:37 AM] Oleksandr Dodatko: =========
+foo.m
+#import <Foundation/Foundation.h>
+
+bar.m
+#import <Foundation/Foundation.h>
+
+ololo.m
+#import <Foundation/Foundation.h>
+
+3 раза
+-----
+
+foo.pch
+#import <Foundation/Foundation.h>
+
+1 раз
+=========
+[3/13/14, 11:56:44 AM] Oleksandr Dodatko: такой пример - корректней
+
