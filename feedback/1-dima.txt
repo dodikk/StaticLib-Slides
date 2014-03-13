@@ -21,3 +21,33 @@
 [3/13/14, 4:04:28 PM] Dima Shemet: а то всякая магия типа $SCRROOT/Lib/ - почему так?
 [3/13/14, 4:04:47 PM] Dima Shemet: ну.. вот моё представление) 
 но это только мой толстый субъективизм)
+=========================
+
+
+[3/13/14, 4:06:17 PM] Oleksandr Dodatko: ===============
+есть над чем подумать
+[3/13/14, 4:06:32 PM] Oleksandr Dodatko: >>> И ты тоже испольуешь и Б и А. и вот как разрулить, чтоб не было duplicate symbols
+вот это - самое ценное
+[3/13/14, 4:07:11 PM] Dima Shemet: во-во
+потому что cocoapods понимает это. но как?)
+[3/13/14, 4:07:16 PM] Oleksandr Dodatko: >>> мне, как нубасу, было бы интересно узнать про то, почему есть какие-то framework search path, library header search path. Почему есть всякие user header search path и не user.
+признаться, мне - тоже
+[3/13/14, 4:07:29 PM] Dima Shemet: хахах)) ну вот и чем не тема?)
+[3/13/14, 4:07:41 PM] Dima Shemet: а потом можешь такой 
+а есть ещё dylib
+[3/13/14, 4:07:49 PM] Dima Shemet: и тут все упали
+[3/13/14, 4:07:51 PM] Dima Shemet: со стульев
+[3/13/14, 4:07:52 PM] Oleksandr Dodatko: больше != лучше
+[3/13/14, 4:07:57 PM] Dima Shemet: ну.. это я так)
+[3/13/14, 4:08:21 PM] Oleksandr Dodatko: >>> потому что оказывается, что есть private headers, public headers. как к ним пути указывать
+поясни вот это еще
+[3/13/14, 4:09:21 PM] Dima Shemet: там вот когда у тебя либа, то в build phases можно указывать public header & private headers. я вот так пнимаю, что public будет доступно клиентскому кода. а зачем тогда private? можно просто не указывать.
+[3/13/14, 4:09:21 PM] Dima Shemet: как-то так
+[3/13/14, 4:11:24 PM] Dima Shemet: http://cl.ly/image/3M2o1K1D0U1I/Screen%20Shot%202014-03-13%20at%2016.11.11.png
+[3/13/14, 4:11:26 PM] Oleksandr Dodatko: >>> там вот когда у тебя либа, то в build phases можно указывать public header & private headers
+Действительно, есть. Но я этим не пользуюсь.
+[3/13/14, 4:12:30 PM] Oleksandr Dodatko: >>> а то всякая магия типа $SCRROOT/Lib/
+А это - что? 
+header search path?
+[3/13/14, 4:13:16 PM] Dima Shemet: ага
+
