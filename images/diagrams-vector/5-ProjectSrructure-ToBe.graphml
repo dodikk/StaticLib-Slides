@@ -16,7 +16,6 @@
     <data key="d7"/>
     <node id="n0" yfiles.foldertype="group">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
@@ -46,7 +45,6 @@
       <graph edgedefault="directed" id="n0:">
         <node id="n0::n0" yfiles.foldertype="group">
           <data key="d4"/>
-          <data key="d5"/>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
@@ -75,7 +73,6 @@
           </data>
           <graph edgedefault="directed" id="n0::n0:">
             <node id="n0::n0::n0">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="151.0" x="391.2332470307015" y="686.7808435731747"/>
@@ -92,7 +89,6 @@
               </data>
             </node>
             <node id="n0::n0::n1">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="243.0" x="133.23324703070148" y="686.7808435731747"/>
@@ -109,7 +105,6 @@
               </data>
             </node>
             <node id="n0::n0::n2">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="409.0" x="133.23324703070148" y="780.7808435731747"/>
@@ -126,7 +121,6 @@
               </data>
             </node>
             <node id="n0::n0::n3">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="261.57010124961755" x="856.5573921044352" y="780.7808435731747"/>
@@ -143,7 +137,6 @@
               </data>
             </node>
             <node id="n0::n0::n4">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="261.57010124961755" x="572.2332470307015" y="780.7808435731747"/>
@@ -160,7 +153,6 @@
               </data>
             </node>
             <node id="n0::n0::n5">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="261.57010124961755" x="856.5573921044352" y="686.7808435731747"/>
@@ -177,7 +169,6 @@
               </data>
             </node>
             <node id="n0::n0::n6">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="261.57010124961755" x="572.2332470307015" y="686.7808435731747"/>
@@ -197,7 +188,6 @@
         </node>
         <node id="n0::n1" yfiles.foldertype="folder">
           <data key="d4"/>
-          <data key="d5"/>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
@@ -230,7 +220,6 @@
         </node>
         <node id="n0::n2" yfiles.foldertype="folder">
           <data key="d4"/>
-          <data key="d5"/>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
@@ -248,7 +237,7 @@
                   <y:Geometry height="208.5640433430699" width="492.8575224493816" x="117.60629390570148" y="397.0"/>
                   <y:Fill color="#F5F5F5" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasLineColor="false" height="39.33203125" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="492.8575224493816" x="0.0" y="0.0">Bysyness Logic Libs</y:NodeLabel>
+                  <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasLineColor="false" height="39.33203125" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="492.8575224493816" x="0.0" y="0.0">Busyness Logic Libs</y:NodeLabel>
                   <y:Shape type="roundrectangle"/>
                   <y:State closed="true" closedHeight="208.5640433430699" closedWidth="492.8575224493816" innerGraphDisplayEnabled="false"/>
                   <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
@@ -261,7 +250,6 @@
         </node>
         <node id="n0::n3" yfiles.foldertype="folder">
           <data key="d4"/>
-          <data key="d5"/>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
@@ -291,7 +279,6 @@
           <graph edgedefault="directed" id="n0::n3:"/>
         </node>
         <node id="n0::n4">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode">
               <y:Geometry height="53.0" width="173.0" x="423.0" y="529.0"/>
@@ -308,7 +295,6 @@
           </data>
         </node>
         <node id="n0::n5">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode">
               <y:Geometry height="53.0" width="261.57010124961755" x="141.0" y="529.0"/>
@@ -325,7 +311,6 @@
           </data>
         </node>
         <node id="n0::n6">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode">
               <y:Geometry height="53.0" width="455.0" x="141.0" y="458.0"/>
@@ -342,23 +327,6 @@
           </data>
         </node>
       </graph>
-    </node>
-    <node id="n1">
-      <data key="d5"/>
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.start1">
-          <y:Geometry height="40.0" width="80.0" x="686.0" y="73.0"/>
-          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="19.17578125" x="30.412109375" y="10.93359375">16<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
     </node>
   </graph>
   <data key="d0">

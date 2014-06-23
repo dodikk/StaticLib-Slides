@@ -16,7 +16,6 @@
     <data key="d7"/>
     <node id="n0" yfiles.foldertype="group">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
@@ -46,7 +45,6 @@
       <graph edgedefault="directed" id="n0:">
         <node id="n0::n0" yfiles.foldertype="group">
           <data key="d4"/>
-          <data key="d5"/>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
@@ -75,7 +73,6 @@
           </data>
           <graph edgedefault="directed" id="n0::n0:">
             <node id="n0::n0::n0">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="151.0" x="401.2161457650267" y="779.7335621463494"/>
@@ -92,7 +89,6 @@
               </data>
             </node>
             <node id="n0::n0::n1">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="243.0" x="143.21614576502668" y="779.7335621463494"/>
@@ -109,7 +105,6 @@
               </data>
             </node>
             <node id="n0::n0::n2">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="409.0" x="143.21614576502668" y="873.7335621463494"/>
@@ -126,13 +121,12 @@
               </data>
             </node>
             <node id="n0::n0::n3">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="318.285802104244" x="866.5402908387605" y="873.7335621463494"/>
                   <y:Fill color="#FF9900" transparent="false"/>
                   <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="39.33203125" modelName="custom" textColor="#000000" visible="true" width="244.3076171875" x="36.989092458372056" y="12.333984375">MBPhogressHUD<y:LabelModel>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="39.33203125" modelName="custom" textColor="#000000" visible="true" width="244.3076171875" x="36.98909245837194" y="12.333984375">MBPhogressHUD<y:LabelModel>
                       <y:SmartNodeLabelModel distance="4.0"/>
                     </y:LabelModel>
                     <y:ModelParameter>
@@ -143,7 +137,6 @@
               </data>
             </node>
             <node id="n0::n0::n4">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="261.57010124961755" x="582.2161457650267" y="873.7335621463494"/>
@@ -160,13 +153,12 @@
               </data>
             </node>
             <node id="n0::n0::n5">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="318.285802104244" x="866.5402908387605" y="779.7335621463494"/>
                   <y:Fill color="#FF9900" transparent="false"/>
                   <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="39.33203125" modelName="custom" textColor="#000000" visible="true" width="262.6328125" x="27.826494802122056" y="12.333984375">CocoaLumberjack<y:LabelModel>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="39.33203125" modelName="custom" textColor="#000000" visible="true" width="262.6328125" x="27.826494802121942" y="12.333984375">CocoaLumberjack<y:LabelModel>
                       <y:SmartNodeLabelModel distance="4.0"/>
                     </y:LabelModel>
                     <y:ModelParameter>
@@ -177,7 +169,6 @@
               </data>
             </node>
             <node id="n0::n0::n6">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNodeWithShadow">
                   <y:Geometry height="64.0" width="261.57010124961755" x="582.2161457650267" y="779.7335621463494"/>
@@ -197,7 +188,6 @@
         </node>
         <node id="n0::n1" yfiles.foldertype="group">
           <data key="d4"/>
-          <data key="d5"/>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
@@ -227,7 +217,6 @@
           <graph edgedefault="directed" id="n0::n1:">
             <node id="n0::n1::n0" yfiles.foldertype="folder">
               <data key="d4"/>
-              <data key="d5"/>
               <data key="d6">
                 <y:ProxyAutoBoundsNode>
                   <y:Realizers active="1">
@@ -260,7 +249,6 @@
             </node>
             <node id="n0::n1::n1" yfiles.foldertype="folder">
               <data key="d4"/>
-              <data key="d5"/>
               <data key="d6">
                 <y:ProxyAutoBoundsNode>
                   <y:Realizers active="1">
@@ -278,7 +266,7 @@
                       <y:Geometry height="208.5640433430699" width="492.8575224493816" x="143.21614576502668" y="422.4527185731747"/>
                       <y:Fill color="#F5F5F5" transparent="false"/>
                       <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasLineColor="false" height="39.33203125" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="492.8575224493816" x="0.0" y="0.0">Bysyness Logic Libs</y:NodeLabel>
+                      <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasLineColor="false" height="39.33203125" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="492.8575224493816" x="0.0" y="0.0">Busyness Logic Libs</y:NodeLabel>
                       <y:Shape type="roundrectangle"/>
                       <y:State closed="true" closedHeight="208.5640433430699" closedWidth="492.8575224493816" innerGraphDisplayEnabled="false"/>
                       <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
@@ -291,7 +279,6 @@
             </node>
             <node id="n0::n1::n2" yfiles.foldertype="folder">
               <data key="d4"/>
-              <data key="d5"/>
               <data key="d6">
                 <y:ProxyAutoBoundsNode>
                   <y:Realizers active="1">
@@ -321,7 +308,6 @@
               <graph edgedefault="directed" id="n0::n1::n2:"/>
             </node>
             <node id="n0::n1::n3">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNode">
                   <y:Geometry height="53.0" width="173.0" x="448.6098518593252" y="554.4527185731747"/>
@@ -338,7 +324,6 @@
               </data>
             </node>
             <node id="n0::n1::n4">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNode">
                   <y:Geometry height="53.0" width="261.57010124961755" x="166.6098518593252" y="554.4527185731747"/>
@@ -355,7 +340,6 @@
               </data>
             </node>
             <node id="n0::n1::n5">
-              <data key="d5"/>
               <data key="d6">
                 <y:GenericNode configuration="ShinyPlateNode">
                   <y:Geometry height="53.0" width="455.0" x="166.6098518593252" y="483.4527185731747"/>
